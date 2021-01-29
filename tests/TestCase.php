@@ -1,6 +1,6 @@
 <?php
 
-namespace VV\Classify\Tests;
+namespace VV\Plausible\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use Statamic\Extend\Manifest;
@@ -32,7 +32,7 @@ class TestCase extends OrchestraTestCase
     {
         return [
             \Statamic\Providers\StatamicServiceProvider::class,
-            \VV\Classify\ServiceProvider::class,
+            \VV\Plausible\ServiceProvider::class,
         ];
     }
 

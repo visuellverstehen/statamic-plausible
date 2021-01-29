@@ -4,22 +4,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Stylesets
+    | Shared Link
     |--------------------------------------------------------------------------
     |
-    | Here you can define different style collections.
-    | To add a new styleset you have to add a new array like the 'blog' array.
+    | Description
     |
     */
 
-    'default' => [
-        'h1' => 'headline',
-        'a'  => 'link',
-        'p' => 'paragraph',
-    ],
+    'link' => 'https://plausible.io/share/yourSharedLink',
 
-    // 'blog' => [
-    //     'button' => 'button button--blue',
-    //     'a'  => 'link',
-    // ],
 ];

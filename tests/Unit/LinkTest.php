@@ -1,14 +1,19 @@
 <?php
 
-namespace VV\Classify\Tests\Unit;
+namespace VV\Plausible\Tests\Unit;
 
-use VV\Classify\Tests\TestCase;
+use VV\Plausible\Plausible;
+use VV\Plausible\Tests\TestCase;
 
 class LinkTest extends TestCase
 {
     /** @test */
-    public function dummy_test()
+    public function a_public_shared_link_will_get_returned()
     {
-      $this->assertTrue(true);
+        $linkFromConfig = config('plausible.link');
+
+      $this->assertEquals(
+          $linkFromConfig, Plausible::link()
+      );
     }
 }

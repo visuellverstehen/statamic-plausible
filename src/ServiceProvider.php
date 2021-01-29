@@ -1,9 +1,8 @@
 <?php
 
-namespace VV\Classify;
+namespace VV\Plausible;
 
 use Statamic\Providers\AddonServiceProvider;
-use Statamic\Statamic;
 
 class ServiceProvider extends AddonServiceProvider
 {
