@@ -57,9 +57,9 @@ class TestCase extends OrchestraTestCase
         parent::getEnvironmentSetUp($app);
 
         $app->make(Manifest::class)->manifest = [
-            'visuellverstehen/statamic-classify' => [
-                'id'        => 'visuellverstehen/statamic-classify',
-                'namespace' => 'VV\\Classify\\',
+            'visuellverstehen/statamic-plausible' => [
+                'id'        => 'visuellverstehen/statamic-plausible',
+                'namespace' => 'VV\\Plausible\\',
             ],
         ];
     }
