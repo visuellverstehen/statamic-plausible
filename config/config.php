@@ -7,10 +7,12 @@ return [
     | Shared Link
     |--------------------------------------------------------------------------
     |
-    | Description
+    | This is the shared link provided by Plausible.
+    |
+    | The Plausible docs: https://plausible.io/docs/shared-links
     |
     */
 
-    'link' => 'https://plausible.io/share/yourSharedLink',
+    'link' => env('PLAUSIBLE_LINK', 'https://plausible.io/share/yourSharedLink'),
 
 ];

@@ -1,6 +1,6 @@
 <?php
 
-use VV\Plausible\Plausible;
+use VV\Plausible\Http\Controller\PlausibleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -8,6 +8,4 @@ use VV\Plausible\Plausible;
 |--------------------------------------------------------------------------
 */
 
-Route::get('visit/plausible', function() {
-    return redirect(Plausible::link());
-})->name('plausible');
+Route::get('visit/plausible', [PlausibleController::class, '__invoke'])->name('plausible');

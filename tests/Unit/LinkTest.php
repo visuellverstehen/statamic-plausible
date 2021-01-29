@@ -9,7 +9,7 @@ use VV\Plausible\Tests\TestCase;
 class LinkTest extends TestCase
 {
     /** @test */
-    public function a_public_shared_link_will_get_returned()
+    public function the_link_provided_in_the_config_file_will_get_returned()
     {
         $linkFromConfig = config('plausible.link');
 
@@ -17,7 +17,7 @@ class LinkTest extends TestCase
     }
 
     /** @test */
-    public function an_empty()
+    public function it_throws_an_exception_if_the_link_is_null()
     {
         $this->expectException(PlausibleException::class);
 
