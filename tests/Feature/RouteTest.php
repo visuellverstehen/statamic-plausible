@@ -9,7 +9,7 @@ class RouteTest extends TestCase
     /** @test */
     public function the_route_returnes_the_link_provied_from_the_config_file()
     {
-        $this->withoutExceptionhandling();
+        $this->withoutMiddleware();
 
         $linkFromConfig = config('plausible.link');
 
