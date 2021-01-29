@@ -8,26 +8,6 @@ use Statamic\Statamic;
 
 class TestCase extends OrchestraTestCase
 {
-    protected $shouldFakeVersion = true;
-
-    /**
-     * Setup the test environment.
-     */
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        if ($this->shouldFakeVersion) {
-            \Facades\Statamic\Version::shouldReceive('get')->andReturn('3.0.0-testing');
-            $this->addToAssertionCount(-1); // Dont want to assert this
-        }
-    }
-
-    /**
-     * Load package service provider
-     * @param \Illuminate\Foundation\Application $app
-     * @return array
-     */
     protected function getPackageProviders($app)
     {
         return [
@@ -36,11 +16,6 @@ class TestCase extends OrchestraTestCase
         ];
     }
 
-    /**
-     * Load package alias
-     * @param \Illuminate\Foundation\Application $app
-     * @return array
-     */
     protected function getPackageAliases($app)
     {
         return [
@@ -48,10 +23,6 @@ class TestCase extends OrchestraTestCase
         ];
     }
 
-    /**
-     * Load Environment
-     * @param \Illuminate\Foundation\Application $app
-     */
     protected function getEnvironmentSetUp($app)
     {
         parent::getEnvironmentSetUp($app);
@@ -64,10 +35,6 @@ class TestCase extends OrchestraTestCase
         ];
     }
 
-    /**
-     * Resolve the Application Configuration and set the Statamic configuration
-     * @param \Illuminate\Foundation\Application $app
-     */
     protected function resolveApplicationConfiguration($app)
     {
         parent::resolveApplicationConfiguration($app);
