@@ -2,7 +2,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/visuellverstehen/statamic-plausible.svg?style=for-the-badge)](https://packagist.org/packages/visuellverstehen/statamic-plausible)
 
 # Statamic Plausible
-It's a useful helper to let your customers navigate to their shared link from Plausible.
+Let your users easily navigate to their shared Plausible link from inside the Statamic control panel.
 
 # Installation
 

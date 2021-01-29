@@ -1,6 +1,6 @@
 {
   "name": "visuellverstehen/statamic-plausible",
-  "description": "",
+  "description": "Let your users easily navigate to their shared Plausible link from inside the Statamic control panel.",
   "keywords": [
     "statamic",
     "v3",
@@ -43,7 +43,7 @@
   "extra": {
     "statamic": {
       "name": "Statamic Plausible",
-      "description": ""
+      "description": "Let your users easily navigate to their shared Plausible link from inside the Statamic control panel."
     },
     "laravel": {
       "providers": [
