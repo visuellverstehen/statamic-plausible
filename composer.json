@@ -7,7 +7,7 @@
     "addon",
     "plausible"
   ],
-  "license": "proprietary",
+  "license": "MIT",
   "type": "statamic-addon",
   "autoload": {
     "psr-4": {
