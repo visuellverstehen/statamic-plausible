@@ -1,0 +1,54 @@
+{
+  "name": "visuellverstehen/statamic-plausible",
+  "description": "",
+  "keywords": [
+    "statamic",
+    "v3",
+    "addon",
+    "plausible"
+  ],
+  "license": "proprietary",
+  "type": "statamic-addon",
+  "autoload": {
+    "psr-4": {
+      "VV\\Classify\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "VV\\Classify\\Tests\\": "tests"
+    }
+  },
+  "authors": [
+    {
+      "name": "visuellvertsehen"
+    }
+  ],
+  "support": {
+    "email": "kontakt@visuellverstehen.de"
+  },
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "illuminate/support": "^8.0",
+    "statamic/cms": "3.0.*"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.0",
+    "phpunit/phpunit": "^9.3"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "extra": {
+    "statamic": {
+      "name": "Statamic Plausible",
+      "description": ""
+    },
+    "laravel": {
+      "providers": [
+        "VV\\Classify\\ServiceProvider"
+      ]
+    }
+  }
+}
