@@ -14,15 +14,15 @@ Let your users easily navigate to their shared Plausible link from inside the St
 
 ## Install addon
 
-There are two ways to install the Classify addon.
+There are two ways to install the Plausibe addon.
 
 ### Control panel
 
-Install Classify from the `Tools > Addons` section of your control panel.
+Install Plausible from the `Tools > Addons` section of your control panel.
 
 ### Composer
 
-Install Classify via composer:
+Install Plausible via composer:
 
 ```bash
 composer require visuellverstehen/statamic-plausible
