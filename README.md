@@ -1,6 +1,10 @@
 [![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)](https://statamic.com/addons/visuellverstehen/statamic-plausible)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/visuellverstehen/statamic-plausible.svg?style=for-the-badge)](https://packagist.org/packages/visuellverstehen/statamic-plausible)
 
+
+# The development was discontinued. We recommend to use the following addon:
+https://statamic.com/addons/jack-whiting/plausible
+
 # Statamic Plausible
 Let your users easily navigate to their shared Plausible link from inside the Statamic control panel.
 
